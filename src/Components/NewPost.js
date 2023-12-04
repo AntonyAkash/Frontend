@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import DataContext from '../Context/DataContext'
 
 const NewPost = () => {
-  const {title,setTitle,body,setBody,handlesubmit}=useContext(DataContext)
+  const {title,setTitle,setBody,handlesubmit}=useContext(DataContext)
   return (
     <main className='NewPost'>
      <h2>Please post your Thoughts</h2>
